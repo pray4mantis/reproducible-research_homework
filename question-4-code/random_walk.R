@@ -14,7 +14,7 @@ random_walk  <- function (n_steps) {
     
     h <- 0.25
     
-    angle <- runif(1, min = 0, max = 2*pi)
+    angle <- runif(1, min = 0, max = 2*pi, set.seed(1))
     
     df[i,1] <- df[i-1,1] + cos(angle)*h
     
