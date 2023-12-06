@@ -20,21 +20,20 @@ Question 5:
    - Logging both the x and y axis
      
 - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)
-   - beta = 0.12172, alpha = 0.4708 (working out is in Transforming_data)
-   - p value for intercept = 0.00753, p value for gradient/log(virion_volume_nm_nm_nm) = 6.44e-10
-   - Both p values are statisctically significant at a significance level of 0.01
-   - Both of my values are completely different to those in the table, the exponent (alpha) is more similar, but the scaling factor (beta) is highly different
+   - beta = 1181.8071, alpha = 1.5152 (working out is in Transforming_data)
+   - p value for intercept = 2.28e-10, p value for gradient/log(virion_volume_nm_nm_nm) = 6.44e-10
+   - Both p values are statisctically significant at a significance level of 0.001
+   - Both of my values match the values given for dsDNA viruses in the paper
  
 - Write the code to reproduce the figure shown below. (10 points)
-   - Contained in Transforming_data
+   - Code contained in Transforming_data
 
   <p align="center">
      <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
   </p>
 
 - What is the estimated volume of a 300 kb dsDNA virus? (4 points)
-  - I obtained two different estimates, one based on the Allometric exponent and Scaling factor in linked the paper (6884014.616 nm3), and one based on the Allometric 
-  exponent and Scaling factor that I worked out (1.785 nm3). Working out is contained in Tranforming_data
+  - My estimated volume was 6884014.616 nm3. Working out is contained in Tranforming_data
 
 - Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).
   
