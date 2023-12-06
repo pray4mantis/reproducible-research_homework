@@ -1,5 +1,9 @@
 # Reproducible research: version control and R
 
+Question 1, 2, and 3:
+Link to my logistic_growth repo
+https://github.com/pray4mantis/logistic_growth
+
 Question 4:
 - A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
    - The two paths are different, both starting and ending in different places. The line on both graphs is jagged because there are lots of abrupt turns. The turns are in random directions so as a result there are periods where the line continues in roughly the same direction for a while,abut also periods where turns happen in different directions in rapid sequence. Every time the code is executed, the paths are different. The values on the axis of the graphs are different. Both graphs show a time period of '500'
@@ -49,6 +53,8 @@ be archived on Zenodo for long term storage so that they cna be re-accessed and 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
 
 Questions 1, 2 and 3 should be answered in the **README.md** file of the `logistic_growth` repo that you forked during the practical. To answer those questions here, simply include a link to your logistic_growth repo.
+
+https://github.com/pray4mantis/logistic_growth
 
 **Submission**: Please submit a single **PDF** file with your candidate number (and no other identifying information), and a link to your fork of the `reproducible-research_homework` repo with the completed answers. All answers should be on the `main` branch.
 
