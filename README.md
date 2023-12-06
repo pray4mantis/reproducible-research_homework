@@ -33,7 +33,7 @@ Question 5:
   </p>
 
 - What is the estimated volume of a 300 kb dsDNA virus? (4 points)
-  - My estimated volume was 6884014.616 nm3. Working out is contained in Tranforming_data
+  - My estimated volume was 6884014.616 nm3. Working out is contained in Transforming_data
 
 - Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).
   
